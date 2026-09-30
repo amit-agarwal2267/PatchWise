@@ -9,8 +9,10 @@ import textwrap
 _TUI_SETUP_ERROR = (
     "PatchWise needs an interactive terminal to complete the first-run setup. "
     "Run PatchWise once in a normal terminal to confirm the API key disclaimer. "
-    "If you are running it headlessly, set "
-    "api_key_disclaimer.no_reprompt: true in ~/.config/patchwise_config.yaml."
+    "If you are running it headlessly, set no_reprompt to true under "
+    "api_key_disclaimer in ~/.config/patchwise_config.yaml:\n"
+    "api_key_disclaimer:\n"
+    "  no_reprompt: true"
 )
 
 
